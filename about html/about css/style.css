@@ -1,0 +1,379 @@
+/* Style for header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    /* add fancy font */
+}
+
+
+/* add background image for body */
+
+body {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img {
+    width: 300px;
+    /* set width to 300 pixels */
+    height: auto;
+    /* automatically adjust height to preserve aspect ratio */
+    margin: 0 auto;
+    /* center the image horizontally */
+    border: 1px solid #ccc;
+    /* add a 1-pixel solid border with gray color */
+    border-radius: 50%;
+    /* round the corners to create a circular shape */
+}
+
+
+/* Style for about section */
+
+.about {
+    padding: 100px 0;
+    /* add background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    /* add fancy font */
+}
+
+.about-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-heading h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    /* add fancy font */
+}
+
+.about-image {
+    text-align: center;
+}
+
+.my-list {
+    list-style: none;
+}
+
+.my-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.my-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-readmore {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-readmore p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.about-readmore button {
+    background-color: #38B6FF;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.about-readmore button:hover {
+    background-color: #0C7DC4;
+}
+
+.about-morecontent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.about-morecontent p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.about-morecontent a {
+    display: block;
+    margin-top: 20px;
+    color: #38B6FF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.about-morecontent a:hover {
+    color: #0C7DC4;
+}
+
+.list-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #f30606;
+}
+
+.list-text {
+    display: inline-block;
+}
+
+.my-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.my-list li i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #010105e3;
+}
+
+.my-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.my-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #080707;
+    transition: all 0.2s ease-in-out;
+}
+
+.my-list li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.my-list li:hover {
+    color: #4f46e5;
+}
+
+.my-list li:hover i {
+    transform: rotate(45deg);
+}
+
+.image-container {
+    max-width: 500px;
+    /* Adjust to your desired width */
+    margin: 0 auto;
+    /* Centers the container horizontally */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.about-readmore {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-readmore p {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.about-readmore button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-morecontent {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-morecontent p {
+    font-size: 1.2rem;
+    color: #211444;
+    line-height: 1.5;
+}
+
+.about-morecontent a {
+    background-color: #1f1341;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.about-morecontent ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-morecontent ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #777;
+    display: flex;
+    align-items: center;
+}
+
+.about-morecontent ul li i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+/* Fancy Footer */
+
+.fancy-footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.fancy-footer a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+.fancy-footer a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.fancy-footer p {
+    margin: 0;
+}
+
+.fancy-footer .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.fancy-footer .social-icons {
+    display: flex;
+}
+
+.fancy-footer .social-icon {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.fancy-footer .social-icon:hover {
+    color: #e74c3c;
+    transform: translateY(-3px);
+}
+
+.fancy-footer .social-icon:last-child {
+    margin-right: 10;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #0c0a0aea;
+}
+
+.social-icons li a:hover {
+    background-color: #82f813;
+}

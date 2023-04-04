@@ -1,0 +1,54 @@
+/* Set the background color of the page */
+
+body {
+    background-color: #f2f2f2;
+}
+
+
+/* Style the section heading */
+
+#Services h2 {
+    font-size: 32px;
+    margin: 40px 0 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+/* Style the service boxes */
+
+.service-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+
+/* Style the service icons */
+
+.service-box i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+
+/* Style the service headings */
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Style the service descriptions */
+
+.service-box p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+}
